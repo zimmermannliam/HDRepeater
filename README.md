@@ -29,6 +29,8 @@ python3 hdrepeater.py example.json
 
 To use example.json:
 
+You need to acquire ExampleSetBelal. I'm not gonna give it to u.
+
 ```bash
 $ cp -r ~/Downloads/ExampleSetBelal/ ./ExampleSetBelal/ # Or wherever you keep ExampleSetBelal
 $ mkdir temp
@@ -38,3 +40,5 @@ $ python3 hdrepeater.py example.json
 ## How to use
 
 See example.json
+
+Note that relative paths in example.json are relative to the example.json.
