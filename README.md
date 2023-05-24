@@ -23,10 +23,18 @@ $ pip3 install -r requirements.txt
 
 ### Executing program
 
-``` bash
+```bash
 python3 hdrepeater.py example.json
 ```
 
+To use example.json:
+
+```bash
+$ cp -r ~/Downloads/ExampleSetBelal/ ./ExampleSetBelal/ # Or wherever you keep ExampleSetBelal
+$ mkdir temp
+$ mkdir output
+$ python3 hdrepeater.py example.json
+```
 ## How to use
 
 See example.json
