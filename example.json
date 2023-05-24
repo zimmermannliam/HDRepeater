@@ -1,0 +1,38 @@
+{
+    "path_temp":"./temp",
+    "path_output":"./output",
+    "path_errors":null,
+    "path_logs":null,
+    "default":{
+        "diameter": 1100,
+        "crop_x_left": 259,
+        "crop_y_down": 34,
+        "view_angle_vertical": 180,
+        "view_angle_horizontal": 180,
+        "target_x_resolution": 1000,
+        "target_y_resolution": 1000,
+        "path_vignetting": "./ExampleSetBelal/3.Parameters/vignetting.cal",
+        "path_fisheye": null,
+        "path_ndfilter": null,
+        "path_calfact": "./ExampleSetBelal/3.Parameters/CF.cal"
+    },
+    "runs":
+    [
+        {
+        "name":"belal_6_series",
+        "params":{
+            "path_rsp_fn": "./ExampleSetBelal/3.Parameters/Response_function.rsp",
+            "paths_ldr":["ExampleSetBelal/2.LDRImages/IMG_6*.JPG"]
+        }
+        },
+        {
+        "name":"belal_7_series",
+        "params":{
+            "target_x_resolution": 1500,
+            "target_y_resolution": 1500,
+            "path_rsp_fn": "./ExampleSetBelal/3.Parameters/Response_function.rsp",
+            "paths_ldr":["ExampleSetBelal/2.LDRImages/IMG_7*.JPG"]
+        }
+        }
+    ]
+}
