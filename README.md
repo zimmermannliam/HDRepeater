@@ -24,7 +24,7 @@ $ pip3 install -r requirements.txt
 ### Executing program
 
 ``` bash
-python3 hdrepeater.py <root directory of batch>
+python3 hdrepeater.py example.json
 ```
 
 ## How to use
